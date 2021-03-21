@@ -1,0 +1,16 @@
+name: KickCraft
+version: ${project.version}
+main: com.github.mcnagatuki.kickcraft.KickCraft
+api-version: 1.15
+authors: [ Nagatuki ]
+description: ダメージを受けたらキックされるプラグイン
+
+commands:
+  kickcraft:
+    usage: Unknown command. Type "/kickcraft help" for help.
+    description: Kick Craft plugin
+    permission: kickcraft
+
+permissions:
+  kickcraft:
+    default: op
